@@ -57,10 +57,10 @@ Some training logs can be found in:
 If you found this code or our work useful please cite us:
 
 ```bibtex
-@article{huang2023twin,
+@inproceedings{huang2023twin,
   title={Twin Contrastive Learning with Noisy Labels},
-  author={Zhizhong Huang and Junping Zhang and Hongming Shan},
-  journal={Proceedings of IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  year={2023},
+  author={Huang, Zhizhong and Zhang, Junping and Shan, Hongming},
+  booktitle={CVPR},
+  year={2023}
 }
 ```
