@@ -1,4 +1,4 @@
-## Self-Supervised Learning for Deep Image Clustering
+## Twin Contrastive Learning with Noisy Labels
 
 This repo provides the official PyTorch implementation of our [TCL](https://arxiv.org/abs/2303.06930) accepted by **CVPR 2023**.
 
