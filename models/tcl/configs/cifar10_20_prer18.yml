@@ -1,0 +1,29 @@
+batch_size: 256
+num_devices: 4
+
+wandb: true
+project_name: noise_label
+entity: zzhuang
+
+dataset: cifar10
+resized_crop_scale: 0.2
+label_file: models/tcl/data/sym_noise_cifar10_20.npy
+encoder_name: bigresnet18_preact
+epochs: 200
+feat_dim: 256
+img_size: 32
+learning_rate: 0.03
+learning_eta_min: 0.01
+syncbn: true
+reassign: 1
+save_freq: 1
+#save_checkpoints: true
+temp: 0.25
+use_gaussian_blur: false
+warmup_epochs: 20
+weight_decay: 0.001
+dist: true
+num_workers: 32
+
+model_name: tcl
+mixup_alpha: 1.0

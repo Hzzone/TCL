@@ -260,6 +260,6 @@ class TCL(TrainTask):
         weak_transform = transforms.Compose(weak_transform)
 
         def ThreeCropTransform(img):
-            return TwoCropTransform(train_transform)(img) + [weak_transform(img), ]
+            return [weak_transform(img), ] + TwoCropTransform(train_transform)(img)
 
         return ThreeCropTransform
