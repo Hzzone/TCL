@@ -25,6 +25,9 @@ The detail implementations and the results can be found in `models/tcl`, and in 
 ### Training
 
 #### Install requirements
+```shell
+git clone --depth 1 https://github.com/Hzzone/torch_clustering tmp && mv tmp/torch_clustering . && rm -rf tmp
+```
 
 ```shell
 pip install -r requirements.txt
